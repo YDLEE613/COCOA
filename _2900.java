@@ -25,20 +25,20 @@ public class _2900 {
 		st = new StringTokenizer(br.readLine());
 		for(int i = 0; i < k; i++) {
 			int jump = Integer.parseInt(st.nextToken());
-			x[jump] += 1; // jump가 불린 횟수만큼 x에 저장
+			x[jump] += 1; 
 		}
 		
 		a[0] = k;
 		tot[0] = k;
 		for(int i = 1; i < n; i++) {
-			if(x[i] != 0) { //x[i] 가 0이 아니라면 한번이라도 jump 인수로 받은 것
+			if(x[i] != 0) { 
 				for(int j = 0; j < n; j+=i) {
 					if(j != 0) a[j] = a[j] + x[i];
 				}
 			}
 		}
 		
-        // a에 있는 합을 미리 저장
+        
 		for(int i = 1; i < n; i++) {
 			tot[i] = tot[i - 1] + a[i];
 		}
