@@ -66,9 +66,7 @@ public class _14888 {
 						result = num / nums[index];
 						break;
 					}
-					// result = 7
-					// result = 35
-					   // visited[0] = false
+					
 					visited[i] = true;
 					dfs(i, index+1, result, len+1);
 				}
