@@ -1,8 +1,9 @@
 Problem:
+--------------
 Given M,N for the size of a paper(M x N), calculate the number of sections that are divided, and the size of the sections in ascending order.
 
 Input:
-
+--------------
 First line: M (natural number <= 100) N (natural number <= 100) K (natural number <= 100)
 
 Next K lines:
@@ -10,7 +11,7 @@ Next K lines:
 -	Ex) 0 2 4 4  (0,2) for left-bottom vertex and (4,4) for right-top vertex
 
 Output:
-
+--------------
 First line: number of sections
 
 Second line: size of sections in ascending order
