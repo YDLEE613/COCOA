@@ -22,11 +22,17 @@ Ex)
 From the image above, the input and output should be:
 
 Input:
+
 5 7 3
+
 0 2 4 4
+
 1 1 2 5
+
 4 0 6 2
 
 Output:
+
 3
+
 1 7 13
