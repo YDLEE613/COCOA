@@ -1,12 +1,12 @@
 Problem:
 
-Write a program that prints results from BFS and DFS search. If there are more than one points that can be visited, visit points with smaller numbers. If there are no more points to be visited, exit. Point number starts from 1 to N.
+Write a program that prints results from BFS and DFS search. If there are more than one vertex that can be visited, visit vertex with smaller numbers. If there are no more vertex to be visited, exit. vertex number starts from 1 to N.
 
 Input:
 
-First line: number of points (1<= N <= 1000), number of edges (1 <= M <= 10000), point to start with
+First line: number of vertex (1<= N <= 1000), number of edges (1 <= M <= 10000), point to start with
 
-Next M lines: points that are connected (bidirectional)
+Next M lines: vertex that are connected (bidirectional)
 
 Output:
 
@@ -15,6 +15,7 @@ At first line, print the result of DFS.
 At second line, print the result of VFS
 
 Example:
+
 (1)
 
 Input:
