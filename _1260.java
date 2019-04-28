@@ -11,12 +11,6 @@ import java.util.Queue;
 
 // DFS & BFS
 public class _1260 {
-	// 6 5 6
-	// 5 4
-	// 4 6
-	// 2 3
-	// 3 1
-	// 1 6
 	public static boolean adj[][];
 	public static boolean visited[];
 	public static StringBuilder sb;
