@@ -15,6 +15,7 @@ At first line, print the result of DFS.
 At second line, print the result of VFS
 
 Example:
+(1)
 
 Input:
 4 5 1
@@ -28,6 +29,7 @@ Output:
 1 2 4 3
 1 2 3 4
 
+(2)
 
 Input:
 5 5 3
@@ -41,6 +43,7 @@ Output:
 3 1 2 5 4
 3 1 4 2 5
 
+(3)
 
 Input: 
 1000 1 1000
