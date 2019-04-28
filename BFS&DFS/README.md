@@ -6,7 +6,6 @@ First line: number of points (1<= N <= 1000), number of edges (1 <= M <= 10000),
 Next M lines: points that are connected (bidirectional)
 
 Output:
-첫째 줄에 DFS를 수행한 결과를, 그 다음 줄에는 BFS를 수행한 결과를 출력한다. V부터 방문된 점을 순서대로 출력하면 된다.
 At first line, print the result of DFS.
 At second line, print the result of VFS
 
