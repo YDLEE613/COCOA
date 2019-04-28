@@ -16,7 +16,9 @@ Given the number of computers and the list of connected computers over network, 
 Input:
 
 First line: number of computers ( <=100)
+
 Second line: number K of pair of connected computers
+
 Next K lines: pair of connected computers
 
 Output:
