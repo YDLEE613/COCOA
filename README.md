@@ -1,2 +1,3 @@
-All the Java/Python files are the solution codes to problems with respective number (file name).
-All the problems can be found by replacing XXXX with the number without the underscore symbol to https://acmicpc.net/problem/XXXX.
+Problems are grouped into several categories. Solution code and the description of each problem are stated in README.md file in each directory. Problems are from http://acmicpc.net.
+
+__README files are being updated__
