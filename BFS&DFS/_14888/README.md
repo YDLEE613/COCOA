@@ -22,60 +22,43 @@ When __N__ numbers and __N-1__ operators are given, calculate the min and max fr
 
 Input
 -
-First line: N (2 <= N <= 11) - number of numbers
-
-Second line: Sequence of numbers
-
-Third line: list of number of operators ex) 1 2 3 4 --> one +, two -, three x, four /
+First line: N (2 <= N <= 11) - number of numbers  
+Second line: Sequence of numbers  
+Third line: list of number of operators ex) 1 2 3 4 --> one +, two -, three x, four /  
 
 Output
 -
-First line: maximum number
-Second line: minimum number 
+First line: maximum number  
+Second line: minimum number  
 
-Any number after arithmetic operator are always less than or equal to 10 billion and greater than or equal to -10billion.
+Any number after arithmetic operator are always less than or equal to 10 billion and greater than or equal to -10 billion.
 
 
 Examples
 -
-_Input(1):_
+_Input(1):_  
+2  
+5 6  
+0 0 1 0  
 
-2
+_Output(1):_  
+30  
+30  
 
-5 6
+_Input(2):_  
+3  
+3 4 5  
+1 0 1 0  
 
-0 0 1 0
+_Output(2):_  
+35  
+17  
 
-_Output(1):_
+_Input(3):_  
+6  
+1 2 3 4 5 6  
+2 1 1 1  
 
-30
-
-30
-
-_Input(2):_
-
-3
-
-3 4 5
-
-1 0 1 0
-
-_Output(2):_
-
-35
-
-17
-
-_Input(3):_
-
-6
-
-1 2 3 4 5 6
-
-2 1 1 1
-
-_Output(3):_
-
-54
-
--24
+_Output(3):_  
+54  
+-24  
