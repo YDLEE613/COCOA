@@ -28,7 +28,7 @@ public class _14890 {
 				rowMap[n + i][j] = rowMap[j][i];
 			}
 		}
-		print(rowMap);
+		//print(rowMap);
 
 		int count = 0;
 		int i, j;
