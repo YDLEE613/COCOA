@@ -37,20 +37,20 @@ public class _14890 {
 		for (i = 0; i < 2 * n; i++) {
 			count = 1;
 			for (j = 0; j < n - 1; j++) {
-				if (rowMap[i][j] == rowMap[i][j + 1]) { // 평지
+				if (rowMap[i][j] == rowMap[i][j + 1]) { // flat
 					count++;
-				} else if (rowMap[i][j] + 1 == rowMap[i][j + 1] && count >= l) {// 다음이 오르막
+				} else if (rowMap[i][j] + 1 == rowMap[i][j + 1] && count >= l) {// uphill
 					count = 1;
 				} else if (rowMap[i][j] - 1 == rowMap[i][j + 1] && count >= 0) {
 					count = 1-l;
 				}else {
-					System.out.println("break at " + i);
+					//System.out.println("break at " + i);
 					break;
 				}
 			}
 			
 			if(j == n-1 && count>=0) {
-				System.out.println("i: " + i);
+				//System.out.println("i: " + i);
 				ret++;
 			}
 		}
